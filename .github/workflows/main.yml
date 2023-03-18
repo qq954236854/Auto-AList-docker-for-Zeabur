@@ -1,12 +1,9 @@
-name: debugger-action
-on: 
-  watch:
-    types: started
+name: Ubuntu
+on: push
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-     - uses: actions/checkout@v2
- 
-     - name: Setup Debug Session
-       uses: csexton/debugger-action@master
+    - uses: actions/checkout@v1
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v1
