@@ -1,4 +1,4 @@
-name: Debugging with SSH
+name: Debugging
 on:
   push:
     branches:
