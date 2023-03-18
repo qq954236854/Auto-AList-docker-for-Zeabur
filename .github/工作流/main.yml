@@ -1,8 +1,11 @@
 name: Ubuntu
-on: push
+on:
+  watch:
+    types: started
 jobs:
   Ubuntu:
     runs-on: ubuntu-latest
     steps:
-    - name: Setup Debug Session
-      uses: csexton/debugger-action@master
+    - name: SSH connection to Actions
+      uses: P3TERX/debugger-action@master
+      
