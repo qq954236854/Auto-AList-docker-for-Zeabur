@@ -1,4 +1,4 @@
-name: 开启 SSH 支持
+name: start_ngork_shh
 on:
   watch:
     types: started
