@@ -1,4 +1,4 @@
-name: start_ngork_shh
+name: start_ngork_ssh
 on:
   watch:
     types: started
