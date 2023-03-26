@@ -30,7 +30,7 @@ Fork到自己的仓库，然后在Zeabur中使用Github仓库部署，找到Fork
 > ```
 > 数据库是私有的，因此您无需担心泄露数据。
 
-### bit数据库示例 https://bit.io/
+### bit数据库示例 bit.io
 > ```json
 >   "DB_TYPE": "postgres",
 >   "DB_HOST": "db.bit.io",
