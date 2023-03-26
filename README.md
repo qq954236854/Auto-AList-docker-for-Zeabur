@@ -22,9 +22,9 @@ Fork到自己的仓库，然后在Zeabur中使用Github仓库部署，找到Fork
 >   "DB_TYPE":"mysql",
 >   "DB_HOST":"sql.com",
 >   "DB_PORT":"3306",
->   "DB_USER":"alist",
->   "DB_PASS":"password",
->   "DB_NAME":"alist",
+>   "DB_USER":"账号",
+>   "DB_PASS":"密码",
+>   "DB_NAME":"数据名称",
 >   "DB_TABLE_PREFIX":"alist_",
 >   "DB_SSL_MODE":"true"
 > ```
